@@ -13,7 +13,7 @@ body {
 	height: 100%;
 	-webkit-transition: width 0.4s;
 					transition: width 0.4s;
-	background: rgba(49, 51, 56 ,1);
+	background: rgba(240, 240, 240 ,1);
 }
 .cp_sidebarmenu:hover {
 	width: 17em;
@@ -56,7 +56,7 @@ body {
 	background-color: rgba(38,50,56 ,1);
 }
 .cp_sidenav li:hover a {
-	color: rgba(49, 51, 56 ,1);
+	color: rgba(240, 240, 240 ,1);
 }
 .cp_sidenav li:before {
 	position: absolute;
@@ -68,7 +68,7 @@ body {
 	content: '';
 	-webkit-transition: background 0.4s;
 					transition: background 0.4s;
-	background: rgba(49, 51, 56 ,1);
+	background: rgba(240, 240, 240 ,1);
 }
 .cp_sidenav ul {
 	margin-top: 1.85rem;
