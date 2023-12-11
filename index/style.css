@@ -164,6 +164,7 @@ header #logo img {
 	left: 0px;
 	width: 100%;
 	text-align: center;
+	z-index: 2;
 }
 /*メニュー１個あたりの指定*/
 #menubar li {
