@@ -223,6 +223,7 @@ header #logo img {
 	/*ロゴやメニューが入っているブロックに対して、左からの配置場所の指定。*/
 	bottom: 50%;
 	/*ロゴやメニューが入っているブロックに対して、下からの配置場所の指定。*/
+	z-index: 2;
 }
 
 /*メニュー
@@ -407,26 +408,6 @@ footer a:hover {
 footer .pr {
 	display: block;
 	font-size: 80%;
-}
-
-/*トップページ内「更新情報・お知らせ」ブロック
----------------------------------------------------------------------------*/
-/*ブロック全体の設定*/
-#new dl {
-	padding-left: 20px;
-	margin-bottom: 15px;
-}
-
-/*日付設定*/
-#new dt {
-	float: left;
-	width: 9em;
-	letter-spacing: 0.1em;
-}
-
-/*記事設定*/
-#new dd {
-	padding-left: 9em;
 }
 
 /*テーブル
