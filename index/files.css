@@ -1,0 +1,115 @@
+/* ファイル名を縦に表示するスタイル */
+.file-names {
+    display: flex;
+    flex-direction: column;
+    margin-left: 500px;
+    /* すべての要素を右にずらす */
+}
+
+/* その他のスタイルは変更なし */
+body {
+    background-color: rgb(31, 31, 31);
+    color: white;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+#searchInput {
+    background-color: #333;
+    color: white;
+    border: 1px solid #555;
+    padding: 8px;
+}
+
+.file-names a {
+    color: #66ccff;
+    text-decoration: none;
+}
+
+.file-names a:hover {
+    text-decoration: underline;
+}
+
+script {
+    color: red;
+}
+
+/* メニューコンテナ全体のスタイル */
+#menu {
+	top: 10px;
+	left: 0px;
+	position: fixed;
+	z-index: 10;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+#menu .menu-wrap {
+	width: 50px;
+}
+
+#menu .menu-wrap:hover {
+	width: 150px;
+}
+
+#menu .menu-icon {
+	padding: 5px;
+	display: block;
+	text-decoration: none;
+	height: 27px;
+	width: 40px;
+}
+
+#menu .menu-icon:hover {
+	background: rgba(0, 0, 0, .1);
+}
+
+#menu .menu-icon .line {
+	background-color: #252525;
+	border-radius: 1px;
+	height: 6px;
+	margin-bottom: 4px;
+	width: 40px;
+}
+
+#menu .menu-list {
+	padding: 0;
+	margin: 5px 0;
+	list-style: none;
+	text-align: left;
+	transition: all .5s;
+}
+
+#menu .menu-list li {
+	max-height: 0;
+	overflow: hidden;
+	background: #00000067;
+	border: none;
+	margin: 0;
+}
+
+#menu .menu-list li a {
+	margin: 5px;
+	padding: 5px 10px;
+	color: #fff;
+	display: block;
+	width: 150px;
+	border-left: 6px solid #DC143C;
+}
+
+#menu .menu-list li a:hover {
+	background: rgba(0, 0, 0, .1);
+	color: white;
+	border-left: 6px solid white;
+}
+
+#menu .menu-wrap:hover li {
+	max-height: 15em;
+}
+
+#aak-settings-box {
+	display: none;
+}
