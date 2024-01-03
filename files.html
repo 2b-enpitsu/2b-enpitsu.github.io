@@ -12,12 +12,46 @@
             display: flex;
             flex-direction: column;
         }
+
+        /* ページ全体の背景色を黒に設定 */
+        body {
+            background-color: black;
+            color: white; /* テキストの色を白に設定 */
+        }
+
+        /* ヘッダーのスタイル */
+        h1 {
+            color: #00ffcc; /* タイトルの文字色を指定 */
+        }
+
+        /* 検索用の入力フィールドのスタイル */
+        #searchInput {
+            background-color: #333; /* 入力フィールドの背景色を指定 */
+            color: white; /* 入力フィールドのテキスト色を白に設定 */
+            border: 1px solid #555; /* 枠線の色を指定 */
+            padding: 8px; /* 内側の余白を指定 */
+        }
+
+        /* ダウンロードリンクのスタイル */
+        .file-names a {
+            color: #66ccff; /* リンクの文字色を指定 */
+            text-decoration: none; /* リンクの下線をなくす */
+        }
+
+        .file-names a:hover {
+            text-decoration: underline; /* ホバー時に下線を表示 */
+        }
+
+        /* アラートのスタイル */
+        script {
+            color: red; /* スクリプト関連のメッセージの文字色を指定 */
+        }
     </style>
 </head>
 
 <body>
 
-    <h1>ファイルダウンロードサイト</h1>
+    <h1>ファイルダウンロード</h1>
 
     <!-- 検索用の入力フィールド -->
     <input type="text" id="searchInput" oninput="searchFiles()" placeholder="ファイル名を検索">
