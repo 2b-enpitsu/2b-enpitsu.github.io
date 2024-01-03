@@ -2,7 +2,7 @@
 .file-names {
     display: flex;
     flex-direction: column;
-    margin-left: 500px;
+    margin-left: 60px;
     /* すべての要素を右にずらす */
 }
 
@@ -68,7 +68,7 @@ script {
 }
 
 #menu .menu-icon .line {
-	background-color: #252525;
+	background-color: #3f3f3f;
 	border-radius: 1px;
 	height: 6px;
 	margin-bottom: 4px;
