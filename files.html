@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
-    <link rel="stylesheet" href="./index/style2.css">
+<link rel="stylesheet" href="./index/files.css">
 
 <head>
     <meta charset="UTF-8">
@@ -17,45 +17,89 @@
         /* ページ全体の背景色を黒に設定 */
         body {
             background-color: rgb(31, 31, 31);
-            color: white; /* テキストの色を白に設定 */
+            color: white;
+            /* テキストの色を白に設定 */
         }
 
         /* ヘッダーのスタイル */
         h1 {
-            color: #ffffff; /* タイトルの文字色を指定 */
+            color: #ffffff;
+            /* タイトルの文字色を指定 */
         }
 
         /* 検索用の入力フィールドのスタイル */
         #searchInput {
-            background-color: #333; /* 入力フィールドの背景色を指定 */
-            color: white; /* 入力フィールドのテキスト色を白に設定 */
-            border: 1px solid #555; /* 枠線の色を指定 */
-            padding: 8px; /* 内側の余白を指定 */
+            background-color: #333;
+            /* 入力フィールドの背景色を指定 */
+            color: white;
+            /* 入力フィールドのテキスト色を白に設定 */
+            border: 1px solid #555;
+            /* 枠線の色を指定 */
+            padding: 8px;
+            /* 内側の余白を指定 */
         }
 
         /* ダウンロードリンクのスタイル */
         .file-names a {
-            color: #66ccff; /* リンクの文字色を指定 */
-            text-decoration: none; /* リンクの下線をなくす */
+            color: #66ccff;
+            /* リンクの文字色を指定 */
+            text-decoration: none;
+            /* リンクの下線をなくす */
         }
 
         .file-names a:hover {
-            text-decoration: underline; /* ホバー時に下線を表示 */
+            text-decoration: underline;
+            /* ホバー時に下線を表示 */
         }
 
         /* アラートのスタイル */
         script {
-            color: red; /* スクリプト関連のメッセージの文字色を指定 */
+            color: red;
+            /* スクリプト関連のメッセージの文字色を指定 */
         }
     </style>
 </head>
 
 <body>
 
-    <h1>ファイルダウンロード</h1>
+    <h1>　ファイルダウンロード</h1>
 
     <!-- 検索用の入力フィールド -->
     <input type="text" id="searchInput" oninput="searchFiles()" placeholder="ファイル名を検索">
+
+    <style>
+        /* ヘッダーのスタイル */
+        h1 {
+            color: #ffffff;
+            /* タイトルの文字色を指定 */
+            margin-left: 20px;
+            /* 左に余白を追加 */
+        }
+
+        /* 検索用の入力フィールドのスタイル */
+        #searchInput {
+            background-color: #333;
+            /* 入力フィールドの背景色を指定 */
+            color: white;
+            /* 入力フィールドのテキスト色を白に設定 */
+            border: 1px solid #555;
+            /* 枠線の色を指定 */
+            padding: 8px;
+            /* 内側の余白を指定 */
+            margin-top: -70px;
+            /* 上に余白を追加 */
+            margin-right: 15px;
+            /* 右に余白を追加 */
+            float: right;
+            /* 右寄せに配置 */
+        }
+
+        /* ファイル名のコンテナ */
+        .file-names {
+            /* すべての子要素を右にずらす */
+            margin-right: 20px;
+        }
+    </style>
 
     <!-- ファイル名のコンテナ -->
     <div class="file-names">
@@ -112,3 +156,30 @@
 </body>
 
 </html>
+
+<ul id="menu">
+    <li class="menu-wrap">
+      <a class="menu-icon">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </a>
+      <ul class="menu-list">
+        <li><a href="https://2b-enpitsu.github.io">
+            <font face="azonix">Home</font>
+          </a></li>
+        <li><a href="https://2b-enpitsu.github.io/files.html">
+            <font face="azonix">Files</font>
+          </a></li>
+        <li><a href="https://2b-enpitsu.github.io/test.html">
+            <font face="azonix">Test-web</font>
+          </a></li>
+        <li><a href="#">
+            <font face="azonix">???</font>
+          </a></li>
+        <li><a href="#">
+            <font face="azonix">???</font>
+          </a></li>
+      </ul>
+    </li>
+  </ul>
